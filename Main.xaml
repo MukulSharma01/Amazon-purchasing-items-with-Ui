@@ -1,0 +1,214 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="779,2025" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="38">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="54">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Amazon Product Project" sap:VirtualizedContainerService.HintSize="705,1960" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="C:\Users\mukul.sharma\Desktop\New Product List.xlsx" Name="dtProductList" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dtData_Table" />
+      <Variable x:TypeArguments="ui:Browser" Name="strURL" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dtData_Table]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="643,97" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Product List" WorkbookPath="[dtProductList]" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtData_Table]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="643,1701" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="609,1576" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="547,61" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[strURL]" Url="[CurrentRow.Item(&quot;Product url&quot;).ToString]">
+              <ui:OpenBrowser.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                  </ActivityAction.Argument>
+                </ActivityAction>
+              </ui:OpenBrowser.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:OpenBrowser>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="547,1353" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="[strURL]" InteractionMode="DebuggerApi" ScopeGuid="4d04058b-a42a-468a-b194-de107f0fa983" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="513,1207" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Boolean" Name="Exist" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="451,146" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="3" Version="V3" />
+                    <ui:UiElementExists DisplayName="Element Exists 'INPUT  add-to-cart-butt...'" Exists="[Exist]" sap:VirtualizedContainerService.HintSize="451,116" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                      <ui:UiElementExists.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b10732a3-0fa4-4975-adc9-efec657c485a" InformativeScreenshot="7266c42b14213b0f6144f3a8918f93de" Selector="&lt;html app='chrome.exe' htmlwindowname='https://m.media-amazon.com/images/I/11EIQ5IGqaL._RC%7C01ZTHTZObnL.css,41C-I1lXVwL.css,31ufSReDtSL.css,013z33uKh2L.css,017DsKjNQJL.css,0131vqwP5UL.css,41EWOOlBJ9L.css,11TIuySqr6L.css,01ElnPiDxWL.css,11Qjwq-j69L.css,01Dm5eKVxwL.css,01IdKcBuAdL.css,01y-XAlI+2*' title='Amazon.in: Buy Acer Nitro 5 Gaming Laptop Intel Core i5-11400H 11th Gen Processor (16GB/512GB SSD/ NVIDIA GeForce GTX 1650 4GB GDDR6 Graphics/Windows 11 Home/RGB),AN515-57 with 15.6&amp;quot;(39.6cm) FHD 144Hz IPS Display Online at Low Prices in India | Acer Reviews &amp;amp; Ratings' /&gt;&lt;webctrl id='add-to-cart-button' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:UiElementExists.Target>
+                    </ui:UiElementExists>
+                    <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="451,741" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                      <ui:IfElseIf.ConditionBlocks>
+                        <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                          <ui:IfElseIfBlock BlockType="If" Condition="[Exist = False]">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,213" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NNavigateBrowser Action="CloseTab" DisplayName="Navigate Browser - Close Tab" sap:VirtualizedContainerService.HintSize="338,91" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" Version="V3" />
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="Else">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,288" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ClickType="Single" DisplayName="Click 'Add to Cart'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4d04058b-a42a-468a-b194-de107f0fa983" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://www.amazon.in/Acer-i5-11400H-Processor-Graphics-AN515-57/dp/B0B3XPG9WG?ref_=Oct_DLandingS_D_d6e29992_60&amp;th=1" DesignTimeRectangle="1140, 505, 179, 29" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Add to Cart'" FullSelectorArgument="&lt;webctrl id='add-to-cart-button' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='add-to-cart-button' tag='INPUT' type='button' class='a-button-input attach-dss-atc' aaname='Add to Shopping Cart' check:text='Add to Cart' /&gt;" Guid="d0b84c8b-8fbc-44d6-9eff-a9da164d9d7f" ImageBase64="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" InformativeScreenshot="d95763eedb051af9eebd499e9b2aaaab.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='https://m.media-amazon.com/images/I/11EIQ5IGqaL._RC%7C01ZTHTZObnL.css,41C-I1lXVwL.css,31ufSReDtSL.css,013z33uKh2L.css,017DsKjNQJL.css,0131vqwP5UL.css,41EWOOlBJ9L.css,11TIuySqr6L.css,01ElnPiDxWL.css,11Qjwq-j69L.css,01Dm5eKVxwL.css,01IdKcBuAdL.css,01y-XAlI+2*' title='Amazon.in: Buy Acer Nitro 5 Gaming Laptop Intel Core i5-11400H 11th Gen Processor (16GB/512GB SSD/ NVIDIA GeForce GTX 1650 4GB GDDR6 Graphics/Windows 11 Home/RGB),AN515-57 with 15.6&amp;quot;(39.6cm) FHD 144Hz IPS Display Online at Low Prices in India | Acer Reviews &amp;amp; Ratings' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                        </sc:BindingList>
+                      </ui:IfElseIf.ConditionBlocks>
+                    </ui:IfElseIf>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+  </Sequence>
+</Activity>
